@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:baselineAligned="false"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@drawable/pizza1"
+    android:baselineAligned="false"
     android:gravity="center_vertical|center_horizontal"
-    android:weightSum="6"
-    android:orientation="horizontal"
-    android:background="@drawable/pizza1">>
+    android:weightSum="6">
 
     <LinearLayout
         android:id="@+id/lin1"
@@ -22,34 +21,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:text="BEM_VINDO"
+            android:text="Bem Vindo"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textSize="30dp" />
 
 
         <Button
-            android:id="@+id/btnGerenciarFuncionario"
-            android:layout_width="216dp"
-            android:layout_height="wrap_content"
-            android:background="#000000"
-            android:text="Gerenciar Funcionario"
-            android:textColor="#ffffff" />
-
-        <Button
-            android:id="@+id/btnGerenciarPizza"
+            android:id="@+id/btnGerenciarProdutos"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="#000000"
-            android:text="Gerenciar Pizza"
-            android:textColor="#ffffff" />
-
-        <Button
-            android:id="@+id/btnGerenciarBebida"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="#000000"
-            android:text="Gerenciar Bebidas"
-            android:textColor="#ffffff" />
+            android:text="Gerenciar Produtos"
+            android:textColor="#ffffff"
+            android:onClick="telaGerenciar"/>
 
         <Button
             android:id="@+id/btnIniciarVenda"
@@ -57,7 +41,8 @@
             android:layout_height="wrap_content"
             android:background="#000000"
             android:text="Iniciar Venda"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:onClick="telaIniciaVenda"/>
 
     </LinearLayout>
 </LinearLayout>

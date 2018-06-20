@@ -1,6 +1,7 @@
 package com.example.diegoherzer.pizzaria.model;
 
 public class Produto {
+    private int id;
     private String nome;
     private String tipo;
     private String descricao;
@@ -15,6 +16,22 @@ public class Produto {
         this.tipo = tipo;
         this.descricao = descricao;
         this.preco = preco;
+    }
+
+    public Produto (int id, String nome, String tipo, String descricao, Double preco) {
+        this.id = id;
+        this.nome = nome;
+        this.tipo = tipo;
+        this.descricao = descricao;
+        this.preco = preco;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNome() {

@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Pizzaria</string>
     <string name="title_activity_main2">Main2Activity</string>
+
+
+    <string name="escolha_tipo">Escolha um Tipo</string>
+
+    <string-array name="tipos">
+        <item>Pizza</item>
+        <item>Bebida</item>
+    </string-array>
 </resources>

@@ -1,33 +1,21 @@
 package com.example.diegoherzer.pizzaria.model;
 
-import java.util.ArrayList;
-
 public class ItemVenda {
-    private Pizza pizza;
-    private Bebida bebida;
+    private Produto produto;
 
     public ItemVenda() {
 
     }
 
-    public ItemVenda (Pizza pizzas, Bebida bebidas) {
-        this.pizza = pizzas;
-        this.bebida = bebidas;
+    public ItemVenda (Produto produto) {
+        this.produto = produto;
     }
 
-    public Pizza getPizza() {
-        return pizza;
+    public Produto getProduto() {
+        return produto;
     }
 
-    public void setPizza(Pizza pizza) {
-        this.pizza = pizza;
-    }
-
-    public Bebida getBebida() {
-        return bebida;
-    }
-
-    public void setBebida(Bebida bebida) {
-        this.bebida = bebida;
+    public void setProduto(Produto produto) {
+        this.produto = produto;
     }
 }

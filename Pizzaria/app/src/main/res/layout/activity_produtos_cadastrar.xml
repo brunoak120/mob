@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:baselineAligned="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:weightSum="6"
+    android:orientation="horizontal"
+    android:background="@drawable/pizza1"
+    tools:context=".activities.ProdutosCadastrarActivity">
+
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginBottom="20dp"
+            android:text="Gerencia de Produtos" />
+
+
+        <Button
+            android:id="@+id/btncadastroProdutos"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Cadastrar Produtos"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnModProdutos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Modificar Produtos"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnExcluirProdutos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Exluir Produtos"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnListarProdutos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Listar Produtos"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Voltar"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

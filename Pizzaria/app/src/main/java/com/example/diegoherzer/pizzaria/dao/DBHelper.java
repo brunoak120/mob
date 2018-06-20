@@ -7,7 +7,7 @@ import android.util.Log;
 
 public class DBHelper extends SQLiteOpenHelper {
     private static final String DB_NAME = "app_banco";
-    private static final int DB_VERSION = 48;
+    private static final int DB_VERSION = 1;
     private static final String SEPARADOR = ", ";
     private static final String TAG = "db_tag";
     private Context mContext;
